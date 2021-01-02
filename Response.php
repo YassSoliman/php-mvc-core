@@ -11,7 +11,7 @@ class Response
 
 	public function redirect(string $url)
 	{
-		header('Location: '.'/'.basename(dirname(__DIR__)).$url);
+		header('Location: '.'/'.basename(dirname(dirname(dirname(__DIR__)))).$url);
 	}
 }
 
