@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core\db;
+namespace yassersoliman\phpmvc\db;
 use PDO;
-use app\core\Application;
+use yassersoliman\phpmvc\Application;
 
 
 class Database

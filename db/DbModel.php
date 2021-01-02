@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core\db;
-use app\core\Model;
-use app\core\Application;
+namespace yassersoliman\phpmvc\db;
+use yassersoliman\phpmvc\Model;
+use yassersoliman\phpmvc\Application;
 
 abstract class DbModel extends Model
 {

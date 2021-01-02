@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core\middlewares;
-use app\core\Application;
-use app\core\exception\ForbiddenException;
+namespace yassersoliman\phpmvc\middlewares;
+use yassersoliman\phpmvc\Application;
+use yassersoliman\phpmvc\exception\ForbiddenException;
 
 class AuthMiddleware extends BaseMiddleware
 {

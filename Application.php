@@ -1,9 +1,9 @@
 <?php
 
-namespace app\core;
+namespace yassersoliman\phpmvc;
 use Exception;
-use app\core\db\Database;
-use app\core\db\DbModel;
+use yassersoliman\phpmvc\db\Database;
+use yassersoliman\phpmvc\db\DbModel;
 
 class Application
 {

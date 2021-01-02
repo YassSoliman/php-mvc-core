@@ -1,7 +1,7 @@
 <?php
 
-namespace app\core\form;
-use app\core\Model;
+namespace yassersoliman\phpmvc\form;
+use yassersoliman\phpmvc\Model;
 
 abstract class BaseField
 {

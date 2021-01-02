@@ -1,15 +1,15 @@
 <?php
 
-namespace app\core;
-use app\core\Application;
-use app\core\middlewares\BaseMiddleware;
+namespace yassersoliman\phpmvc;
+use yassersoliman\phpmvc\Application;
+use yassersoliman\phpmvc\middlewares\BaseMiddleware;
 
 class Controller
 {
 	public string $layout = 'main';
 	public string $action = '';
 	/**
-	 * @var \app\core\middlewares\BaseMiddleware[] 
+	 * @var \yassersoliman\phpmvc\middlewares\BaseMiddleware[] 
 	 */
 	protected array $middlewares = [];
 
